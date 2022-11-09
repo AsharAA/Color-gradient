@@ -1,0 +1,26 @@
+{
+  "main": "app.js",
+  "scripts": {
+    "homepage": "https://github.com/AsharAA/Color-gradient",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "browserify app.js > bundle.js && live-server"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "lodash": "^4.17.21"
+  },
+  "name": "color-gradient",
+  "description": "gradient",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsharAA/Color-gradient.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AsharAA/Color-gradient/issues"
+  },
+  "homepage": "https://github.com/AsharAA/Color-gradient#readme"
+}
